@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Модальное окно</title>
+</head>
+
+<body>
+    <div class="title">Модальное окно</div>
+    <div class="btn__box">
+        <button class="btn" type="button" data-mod-btn="modal-1">Модальное окно №1</button>
+        <button class="btn" type="button" data-mod-btn="modal-2">Модальное окно №2</button>
+        <button class="btn" type="button" data-mod-btn="modal-3">Модальное окно №3</button>
+    </div>
+    <div class="modal__box hidden" data-mod id="modal-1">
+        <div class="modal__wrapper">
+            <div class="modal__window">
+                <div class="modal__header">
+                    <div class="modal__title">Модальное окно №1</div>
+                </div>
+                <div class="modal__content">
+                    <div class="modal__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorem reiciendis totam velit
+                        quasi dicta amet tempora nam quis natus.
+                    </div>
+                    <button class="modal__btn" data-mod-close>Закрыть окно</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal__box hidden" data-mod id="modal-2">
+        <div class="modal__wrapper">
+            <div class="modal__window">
+                <div class="modal__header">
+                    <div class="modal__title">Модальное окно №2</div>
+                </div>
+                <div class="modal__content">
+                    <div class="modal__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorem reiciendis totam velit
+                        quasi dicta amet tempora nam quis natus.
+                    </div>
+                    <button class="modal__btn" data-mod-close>Закрыть окно</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal__box hidden" data-mod id="modal-3">
+        <div class="modal__wrapper">
+            <div class="modal__window">
+                <div class="modal__header">
+                    <div class="modal__title">Модальное окно №3</div>
+                </div>
+                <div class="modal__content">
+                    <div class="modal__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorem reiciendis totam velit
+                        quasi dicta amet tempora nam quis natus.
+                    </div>
+                    <button class="modal__btn" data-mod-close>Закрыть окно</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
